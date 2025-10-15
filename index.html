@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Peminjaman Fasilitas Sekolah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Formulir Peminjaman Fasilitas</h1>
+  <form id="formPeminjaman">
+    <label>Nama Peminjam:
+      <input type="text" name="nama" required>
+    </label>
+    <label>Fasilitas:
+      <select name="fasilitas" required>
+        <option>Ruang Kelas</option>
+        <option>Proyektor</option>
+        <option>Lapangan</option>
+      </select>
+    </label>
+    <label>Tanggal:
+      <input type="date" name="tanggal" required>
+    </label>
+    <button type="submit">Kirim</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
